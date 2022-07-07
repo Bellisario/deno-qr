@@ -5,13 +5,14 @@ Simple Deno Deploy QrCode Server
 
 Feel free to contribute and new features. :octocat:
 
-## Current Roadmap
+## Current Roadmap :memo:
 - [x] Base project
 - [ ] QrCode resize option
 - [ ] Feel free to suggest new ones
 
-## Why I created this?
+## Why I created this? :question:
 I know this is a really simple project but I made this because:
-- I liked to show the power of Deno + Deno Deploy :deno:
-- I wanted to create a simple and fast QrCode generator server
-- I wanted to learn Deno Deploy and how it works
+- I liked to show the power :battery: of Deno + Deno Deploy <img src="https://deno.land/logo.svg" width="20" height="20" alt="little-deno" />
+
+- I wanted to create a simple and fast :racing_car: QrCode generator server
+- I wanted to learn Deno Deploy and how it works :monocle_face:
