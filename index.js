@@ -17,7 +17,7 @@ function dataURLtoBlob(dataUrl) {
     })
 }
 
-serve(async (req: Request) => {
+serve(async (req) => {
     // get request URL
     const url = new URL(req.url)
     // get path (that's also the requested QR)
