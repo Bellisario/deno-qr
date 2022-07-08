@@ -1,4 +1,4 @@
-# Deno QR ![Deno](https://img.shields.io/badge/Deno-000000?logo=deno&logoColor=white)
+# Deno QR ![Deno](https://img.shields.io/badge/Deno-000000?logo=deno&logoColor=white) [![Test](https://github.com/Bellisario/deno-qr/actions/workflows/test.yml/badge.svg)](https://github.com/Bellisario/deno-qr/actions/workflows/test.yml)
 
 Simple Deno Deploy QrCode Server
 
