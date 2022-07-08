@@ -2,7 +2,7 @@
 
 Simple Deno Deploy QrCode Server
 
-> Production URL here: https://deno-qr.deno.dev/\
+> Production URL here: https://deno-qr.deno.dev/ \
 > (make sure to pass some content to create a working QrCode)
 
 Feel free to contribute and new features. :octocat:
