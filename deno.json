@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "strict": true
+    },
+    "lint": {
+        "rules": {
+            "tags": ["recommended"]
+        }
+    },
+    "fmt": {
+        "options": {
+            "indentWidth": 4,
+            "singleQuote": true,
+            "proseWrap": "preserve"
+        }
+    },
+    "tasks": {
+        "start": "deno run --allow-net index.js",
+        "dev": "deno run --allow-net --watch index.js",
+        "test": "deno test --allow-read"
+    }
+}
