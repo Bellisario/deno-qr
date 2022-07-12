@@ -1,4 +1,4 @@
-# Deno QR ![Deno](https://img.shields.io/badge/Deno-000000?logo=deno&logoColor=white) [![Test](https://github.com/Bellisario/deno-qr/actions/workflows/test.yml/badge.svg)](https://github.com/Bellisario/deno-qr/actions/workflows/test.yml)
+# Deno QR ![Deno](https://img.shields.io/badge/Deno-000000?logo=deno&logoColor=white) [![Test](https://github.com/Bellisario/deno-qr/actions/workflows/test.yml/badge.svg)](https://github.com/Bellisario/deno-qr/actions/workflows/test.yml) ![Dependencies](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fhttps%2Fdeno.land%2Fx%2Fdeno-qr%40v1.0.0%2Fmod.ts)
 
 Simple Deno Deploy QrCode Server
 
