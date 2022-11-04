@@ -1,6 +1,6 @@
-import { serve } from 'https://deno.land/std@0.161.0/http/server.ts';
+import { serve } from 'https://deno.land/std@0.162.0/http/server.ts';
 import { qrcode } from 'https://deno.land/x/qrcode@v2.0.0/mod.ts';
 
-import { assertEquals } from 'https://deno.land/std@0.161.0/testing/asserts.ts';
+import { assertEquals } from 'https://deno.land/std@0.162.0/testing/asserts.ts';
 
 export { assertEquals, qrcode, serve };
