@@ -1,5 +1,7 @@
 import { qrcode } from 'https://deno.land/x/qrcode@v2.0.0/mod.ts';
 
+const MAX_SIZE = 1000;
+
 function dataURLtoBlob(dataUrl) {
     // Decode the dataURL
     const binary = atob(dataUrl.split(',')[1]);
@@ -23,11 +25,15 @@ export async function router(req) {
     // get path (that's also the requested QR)
     const requested = decodeURIComponent(url.pathname.slice(1));
 
+    // get size (of the required QR) (optional)
+    let size = Number(url.searchParams.get('size')) ?? 500;
+    size = size > MAX_SIZE ? MAX_SIZE : size;
+
     // optional URLs log
     // console.log(requested)
 
     // Base64 QrCode (data URL of type image/gif)
-    const base64Image = await qrcode(requested);
+    const base64Image = await qrcode(requested, { size });
 
     // get blob from data URL QR
     const blob = dataURLtoBlob(base64Image);

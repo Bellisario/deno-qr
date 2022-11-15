@@ -10,7 +10,7 @@ Feel free to contribute and add new features. :octocat:
 ## Current Roadmap :memo:
 
 - [x] Base project
-- [ ] QrCode resize option
+- [x] QrCode resize option (via `?size=<size>` param)
 - [ ] Feel free to suggest new ones
 
 ## Why I created this? :question:
